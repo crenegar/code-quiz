@@ -6,11 +6,34 @@
 .opening {
     color: #000000;
     text-align: center;
-    width: 70%;
-    height: 70%;
+    width: 95%;
+    height: 95%;
     background-color:rgb(53, 184, 189);
     position: absolute;
-    left: 15%;
+    left: 10%;
     padding: 20px;
 }
 
+
+#starting-text {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#start-btn {
+    font-size: 35px;
+    font-weight: bold;
+    color: #18c721;;
+    margin: 50px;
+    padding: 15px 30px;
+    border-radius: 80px;    
+}  
+
+.choice-container {
+    display: flex;
+    margin-bottom: 30px;
+    width: 100%;
+    font-size: 20px;
+    border: 0.1rem solid rgb(0, 0, 0);
+    background-color: whitesmoke;
+}
