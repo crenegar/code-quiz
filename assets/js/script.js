@@ -1,7 +1,7 @@
 
 var LetsLearnHowToCodeQuiz = [
     {
-        question: "what is a JavaScript data type?",
+        question: "What is a JavaScript data type?",
         a: 'boolean',
         b: 'document',
         c: 'index',

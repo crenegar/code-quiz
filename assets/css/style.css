@@ -1,5 +1,6 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
 .opening {
@@ -31,16 +32,21 @@
     border-radius: 80px;    
 }  
 
+#timer {
+    font-size: 25px;
+   }
+
 .choice-container {
     display: center;
     text-align: center;
     margin-bottom: 30px;
     width: 100%;
-    font-size: 20px;
+    font-size: 25px;
     border: 3px solid rgb(0, 0, 0);
     background-color: whitesmoke;
 }
 .choice-text {
+    font-size: 18px;
     padding: 30px 50px;
     background-color: rgb(48, 149, 207);
     color: black;
@@ -49,7 +55,6 @@
 #finalscore {
     font-size: 30px;
     font-weight: bold;
-    width: 50%;
     padding: 25px;
     color: black;
 }
