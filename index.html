@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <!--Homepage-->
+
     <div class="opening">
         <h1>Lets learn how to code quiz</h1>
         <div>
@@ -16,29 +16,29 @@
                  This quiz is timed and if you answer a question incorrectly your time will be deducted. <br/>
                  Once complete you will be able to save your high score. Let the best coder win!
                 </p>
-        </div>
-
+            </div>
 <div>
     <button id="start-btn">Start</button>
     </div>
-
+    </div>
 
 <section class="container hide">
     <p id="timer">Time:</p>
     <div id="game">
-        <div class="choice-container" id="questions">
+        <div class="choice-container" id="question">
             <h2>What coding language is the best?</h2>
         </div>
         <button class="choice-text" id="a" onclick="compareAnswer('a')">A</button>
         <button class="choice-text" id="b" onclick="compareAnswer('b')">B</button>
         <button class="choice-text" id="c" onclick="compareAnswer('c')">C</button>
         <button class="choice-text" id="d" onclick="compareAnswer('d')">D</button>
+        <button class="choice-text" id="e" onclick="compareAnswer('e')">E</button>
     </div>
 </section>
 
 <section class="game-over hide">
     <div id="finalscore">Your final score is:</div>
-    <p id="playername-input">Please enter you name here to record your score:</p>
+    <p id="playername-input">Please enter you name here to record your score good luck next time:</p>
     <input type="text" id="usertext">
     <button id="scoreSubmit">Submit</button>
 </section>
