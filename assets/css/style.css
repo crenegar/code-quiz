@@ -31,9 +31,30 @@
 
 .choice-container {
     display: flex;
+    text-align: center;
     margin-bottom: 30px;
     width: 100%;
     font-size: 20px;
-    border: 0.1rem solid rgb(0, 0, 0);
+    border: 3px solid rgb(0, 0, 0);
     background-color: whitesmoke;
+}
+.choice-text {
+    padding: 30px 50px;
+    background-color: rgb(48, 149, 207);
+    color: black;
+}
+
+#finalscore {
+    font-size: bold;
+    width: 25%;
+    padding: 25px 40px;
+    background-color: rgb(46, 138, 17);
+    color: black;
+}
+
+/* Media queries for breakpoint */
+@media screen and (max-width: 575px) {
+    #finalscore {
+        width: 100%;
+  }
 }
