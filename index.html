@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+    <!--Homepage-->
     <div class="opening">
         <h1>Learning to code quiz</h1>
         <div>
@@ -16,6 +17,31 @@
                  Once complete you will be able to save your high score. Let the best coder win!
                 </p>
         </div>
+
+<div>
+    <button id="start-btn">Start</button>
     </div>
+
+
+<section class="container">
+    <p id="timer">Time:</p>
+    <div id="game">
+        <div class="choice-container" id="questions">
+            <h2>What coding language is the best?</h2>
+        </div>
+        <button class="choice-text" id="a" onclick="compareAnswer('a')">A</button>
+        <button class="choice-text" id="b" onclick="compareAnswer('b')">B</button>
+        <button class="choice-text" id="c" onclick="compareAnswer('c')">C</button>
+        <button class="choice-text" id="d" onclick="compareAnswer('d')">D</button>
+    </div>
+</section>
+
+<section class="game-over hide">
+    <div id="finalscore">Your final score is:</div>
+    <p id="playername-input">Please enter you name here to record your score:</p>
+    <input type="text" id="usertext">
+    <button id="scoreSubmit">Submit</button>
+</section>
+<script src="assets/js/script.js"></script>
 </body>
 </html>
